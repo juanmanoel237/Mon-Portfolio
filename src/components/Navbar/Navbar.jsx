@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link to="/" onClick={closeMenu}>Mon Portfolio</Link>
+        <Link to="/" onClick={closeMenu}>NDEGUE JUAN </Link>
       </div>
       <div className={`navbar-menu ${isOpen ? 'is-active' : ''}`}>
         <Link to="/" onClick={closeMenu}>Home</Link>

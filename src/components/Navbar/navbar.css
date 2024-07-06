@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 .navbar {
+    font-family: 'Poppins', sans-serif;
     position: fixed;
     top: 0;
     left: 0;
@@ -12,9 +15,15 @@
     z-index: 1000;
     transition: all 0.3s ease;
   }
+
+.navbar-brand,
+.navbar-menu a,
+.navbar-burger span {
+  font-weight: 600; /* Poids de la police pour les liens et le texte */
+}
   
   .navbar-brand a {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bold;
     color: #333;
     text-decoration: none;
