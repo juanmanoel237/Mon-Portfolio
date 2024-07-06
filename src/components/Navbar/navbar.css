@@ -19,7 +19,7 @@
 .navbar-brand,
 .navbar-menu a,
 .navbar-burger span {
-  font-weight: 600; /* Poids de la police pour les liens et le texte */
+  font-weight: 600;
 }
   
   .navbar-brand a {
