@@ -1,41 +1,61 @@
 import { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './navbar.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState('');
-  const location = useLocation();
-
-  useEffect(() => {
-    const section = location.hash.slice(1) || 'home';
-    setActiveSection(section);
-  }, [location]);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleResize = () => {
+    setIsMobile(window.innerWidth <= 768);
+    if (window.innerWidth > 768) {
+      setIsOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   const closeMenu = () => {
-    setIsOpen(false);
+    if (isMobile) {
+      setIsOpen(false);
+    }
+  };
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+    closeMenu(); // Ferme le menu après le défilement
   };
 
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link to="/">Mon Portfolio</Link>
+        <Link to="/" onClick={closeMenu}>Mon Portfolio</Link>
       </div>
       <div className={`navbar-menu ${isOpen ? 'is-active' : ''}`}>
-        <Link to="/" className={activeSection === 'home' ? 'active' : ''} onClick={closeMenu}>Home</Link>
-        <Link to="#skills" className={activeSection === 'skills' ? 'active' : ''} onClick={closeMenu}>Skills</Link>
-        <Link to="#projects" className={activeSection === 'projects' ? 'active' : ''} onClick={closeMenu}>Projects</Link>
-        <Link to="#contact" className={activeSection === 'contact' ? 'active' : ''} onClick={closeMenu}>Contact</Link>
+        <Link to="/" onClick={closeMenu}>Home</Link>
+        <Link to="/" onClick={() => scrollToSection('skills')}>Skills</Link>
+        <Link to="/" onClick={() => scrollToSection('projects')}>Projects</Link>
+        <Link to="/" onClick={() => scrollToSection('contact')}>Contact</Link>
       </div>
-      <div className={`navbar-burger ${isOpen ? 'is-active' : ''}`} onClick={toggleMenu}>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+      {isMobile && (
+        <div className={`navbar-burger ${isOpen ? 'is-active' : ''}`} onClick={toggleMenu}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      )}
     </nav>
   );
 };
