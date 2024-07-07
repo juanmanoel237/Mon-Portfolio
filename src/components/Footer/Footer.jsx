@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import './footer.css'; // Assurez-vous de créer un fichier CSS pour styliser le footer
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
@@ -8,7 +9,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <h4>Contact</h4>
-          <p>Email: <a href="ndeguemanoeljuan.com">Juan Manoel</a></p>
+          <p>M'envoyer un Email: <a href="mailto:ndeguemanoeljuan@gmail.com">Ndegue Juan</a></p>
         </div>
         <div className="footer-section">
           <h4>Suivez-moi</h4>

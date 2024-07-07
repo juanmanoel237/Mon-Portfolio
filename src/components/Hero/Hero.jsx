@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import './hero.css';
 import moiImage from '/images/moi.jpg';
 
