@@ -1,5 +1,5 @@
 import './hero.css';
-import moiImage from '../../images/moi.jpg';
+import moiImage from '/images/moi.jpg';
 
 const Hero = () => {
   const scrollToProject = () => {
