@@ -1,4 +1,4 @@
-import React from 'react'
+import projectsData from "../../data/projects.json"
 
 const Projects = () => {
   return (

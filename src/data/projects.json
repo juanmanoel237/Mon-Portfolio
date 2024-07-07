@@ -1,19 +1,19 @@
 [
-    {
-      "id": 1,
-      "title": "Booki",
-      "coverPicture": "../images/booki-cover.png",
-      "images": [
-        "../images/booki1.png",
-        "../images/booki2.png",
-        "../images/booki3.png"
-      ],
-      "description": "Description brève du projet 1.",
-      "details": "Description détaillée du projet 1. Voici une description plus approfondie avec des informations supplémentaires sur le projet.",
-      "technologies": ["React", "Node.js", "Express", "MongoDB"],
-      "githubLink": "https://github.com/user/projet1",
-      "demoLink": "https://demo.com/projet1"
-    },
+  {
+    "id": 1,
+    "title": "Booki",
+    "coverPicture": "../images/booki-cover.png",
+    "images": [
+      "../images/booki1.png",
+      "../images/booki2.png",
+      "../images/booki3.png"
+    ],
+    "description": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS.",
+    "details": "Pour le projet Booki, j'ai intégré l'interface d'un site permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix. En étroite collaboration avec Sarah, la CTO, et Loïc, l'UI designer, j'ai transformé les maquettes desktop, tablette et mobile en code HTML et CSS fonctionnel. Le projet comprenait l'utilisation d'une base de code initiale, le respect des spécifications techniques, et le versionnement via Git. Mon travail a permis de créer une interface utilisateur responsive et intuitive, alignée avec les designs fournis par l'équipe.",
+    "technologies": ["React", "Node.js", "Express", "MongoDB"],
+    "githubLink": "https://github.com/user/projet1",
+    "demoLink": "https://demo.com/projet1"
+  },
     {
       "id": 2,
       "title": "Sophie Bluel Portfolio",
@@ -23,8 +23,8 @@
         "../images/sophie2.png",
         "../images/sophie3.png"
       ],
-      "description": "Description brève du projet 2.",
-      "details": "Description détaillée du projet 2. Voici une description plus approfondie avec des informations supplémentaires sur le projet.",
+      "description": "Portfolio dynamique d'une architecte.",
+      "details": "Pour ArchiWebos, j'ai renforcé l'équipe en tant que développeur front-end sur le projet du site portfolio d'une architecte d'intérieur. J'ai intégré la page de présentation des travaux existante en utilisant les données dynamiques fournies par le backend, développé la page de connexion administrateur à partir de zéro, et créé une modale d'upload de médias. En suivant les designs Figma et en collaborant étroitement avec l'équipe, j'ai contribué à rendre le site fonctionnel, répondant ainsi aux besoins spécifiques du projet et aux attentes de nôtre cliente.",
       "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
       "githubLink": "https://github.com/user/projet2",
       "demoLink": "https://demo.com/projet2"
@@ -38,8 +38,8 @@
         "../images/nina2.png",
         "../images/nina3.png"
       ],
-      "description": "Description brève du projet 2.",
-      "details": "Description détaillée du projet 2. Voici une description plus approfondie avec des informations supplémentaires sur le projet.",
+      "description": "Optimisation du site web d'une photographe.",
+      "details": "Pour mon service de développement web freelance, j'ai proposé mes compétences en optimisation SEO à Nina Carducci, une photographe. Après avoir réalisé un audit de son site, j'ai identifié des opportunités pour améliorer ses performances de chargement et son référencement sur les moteurs de recherche. J'ai proposé de réduire la taille des images et d'optimiser le code pour améliorer la vitesse et l'accessibilité du site. En utilisant des audits Lighthouse pour les performances et des audits Wave pour l'accessibilité.",
       "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
       "githubLink": "https://github.com/user/projet2",
       "demoLink": "https://demo.com/projet2"
@@ -53,8 +53,8 @@
         "../images/kasa2.png",
         "../images/kasa3.png"
       ],
-      "description": "Description brève du projet 2.",
-      "details": "Description détaillée du projet 2. Voici une description plus approfondie avec des informations supplémentaires sur le projet.",
+      "description": "Création d'une application web de location immobilière avec React.",
+      "details": "Pour le projet de refonte du site Kasa, j'ai initié le développement de l'application React en suivant les maquettes Figma fournies par Paul, le designer. En attendant le backend, j'ai utilisé un fichier JSON avec les dernières annonces de logements comme source de données. J'ai implémenté les composants React, configuré les routes avec React Router, et intégré des fonctionnalités telles qu'une galerie d'images avec un défilement circulaire et des Collapse interactifs.",
       "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
       "githubLink": "https://github.com/user/projet2",
       "demoLink": "https://demo.com/projet2"
@@ -68,7 +68,7 @@
         "../images/grimoire2.png",
         "../images/grimoire3.png"
       ],
-      "description": "Description brève du projet 2.",
+      "description": "Développer le back-end d'un site de notation de livres.",
       "details": "Description détaillée du projet 2. Voici une description plus approfondie avec des informations supplémentaires sur le projet.",
       "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
       "githubLink": "https://github.com/user/projet2",

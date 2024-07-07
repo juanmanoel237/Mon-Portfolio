@@ -4,8 +4,8 @@ import Footer from './components/Footer/Footer';
 import Hero from './components/Hero/Hero';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
-import ProjectDetail from './components/ProjectDetail/ProjectDetail';
 import Contact from './components/Contact/Contact';
+import ScrollTop from './components/Scroll/ScrollTop'
 import './App.css';
 
 const Home = () => (
@@ -23,10 +23,10 @@ const App = () => (
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/project/:id" element={<ProjectDetail />} />
         <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>
       <Footer />
+      <ScrollTop/>
     </div>
   </Router>
 );
