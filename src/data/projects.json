@@ -1,0 +1,79 @@
+[
+    {
+      "id": 1,
+      "title": "Booki",
+      "coverPicture": "../images/booki-cover.png",
+      "images": [
+        "../images/booki1.png",
+        "../images/booki2.png",
+        "../images/booki3.png"
+      ],
+      "description": "Description brève du projet 1.",
+      "details": "Description détaillée du projet 1. Voici une description plus approfondie avec des informations supplémentaires sur le projet.",
+      "technologies": ["React", "Node.js", "Express", "MongoDB"],
+      "githubLink": "https://github.com/user/projet1",
+      "demoLink": "https://demo.com/projet1"
+    },
+    {
+      "id": 2,
+      "title": "Sophie Bluel Portfolio",
+      "coverPicture": "../images/sophie-cover.png",
+      "images": [
+        "../images/sophie1.png",
+        "../images/sophie2.png",
+        "../images/sophie3.png"
+      ],
+      "description": "Description brève du projet 2.",
+      "details": "Description détaillée du projet 2. Voici une description plus approfondie avec des informations supplémentaires sur le projet.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      "githubLink": "https://github.com/user/projet2",
+      "demoLink": "https://demo.com/projet2"
+    },
+    {
+      "id": 3,
+      "title": "Nina Carducci",
+      "coverPicture": "../images/nina-cover.png",
+      "images": [
+        "../images/nina1.png",
+        "../images/nina2.png",
+        "../images/nina3.png"
+      ],
+      "description": "Description brève du projet 2.",
+      "details": "Description détaillée du projet 2. Voici une description plus approfondie avec des informations supplémentaires sur le projet.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      "githubLink": "https://github.com/user/projet2",
+      "demoLink": "https://demo.com/projet2"
+    },
+    {
+      "id": 4,
+      "title": "Kasa",
+      "coverPicture": "../images/kasa-cover.png",
+      "images": [
+        "../images/kasa1.png",
+        "../images/kasa2.png",
+        "../images/kasa3.png"
+      ],
+      "description": "Description brève du projet 2.",
+      "details": "Description détaillée du projet 2. Voici une description plus approfondie avec des informations supplémentaires sur le projet.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      "githubLink": "https://github.com/user/projet2",
+      "demoLink": "https://demo.com/projet2"
+    },
+    {
+      "id": 5,
+      "title": "Mon Vieux Grimoire",
+      "coverPicture": "../images/grimoire-cover.png",
+      "images": [
+        "../images/grimoire1.png",
+        "../images/grimoire2.png",
+        "../images/grimoire3.png"
+      ],
+      "description": "Description brève du projet 2.",
+      "details": "Description détaillée du projet 2. Voici une description plus approfondie avec des informations supplémentaires sur le projet.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      "githubLink": "https://github.com/user/projet2",
+      "demoLink": "https://demo.com/projet2"
+    }
+    
+  ]
+  
