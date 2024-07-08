@@ -36,7 +36,7 @@
 .hero-content button.cta-button{
     padding: 0.9rem 2rem;
     font-size: 1.2em;
-    background-color: #007BFF;
+    background-color: #2ecc71;
     color: #fff;
     border: none;
     border-radius: 50px;
@@ -45,7 +45,7 @@
 }
 
 .hero-content button.cta-button:hover{
-    background-color: #0056b3;
+    background-color: #27ae60;
     transform: scale(1.05);
     box-shadow: 0 4px 12px rgba(0, 91, 255, 0.3);
 }
