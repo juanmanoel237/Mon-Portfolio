@@ -27,7 +27,7 @@
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
     animation: fadeIn 0.5s ease-out forwards;
     opacity: 0;
     will-change: opacity, transform;
@@ -35,6 +35,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 2px solid transparent;
 }
 
 .project-card:before {
@@ -56,6 +57,7 @@
 .project-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    border: 2px solid #2ecc71;
 }
 
 .project-card img {
@@ -75,6 +77,11 @@
     font-size: 1.5rem;
     color: #333;
     margin: 1rem;
+    transition: color 0.3s ease;
+}
+
+.project-card:hover h3 {
+    color: #2ecc71;
 }
 
 .project-card p {
@@ -82,6 +89,11 @@
     color: #555;
     margin: 0 1rem 1rem;
     line-height: 1.4;
+    transition: color 0.3s ease;
+}
+
+.project-card:hover p {
+    color: #333;
 }
 
 .project-card .see-more-btn {
