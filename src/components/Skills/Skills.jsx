@@ -14,6 +14,7 @@ import {
   faServer
 } from '@fortawesome/free-solid-svg-icons'; 
 
+import './skills.css'
 
 const Skills = () => {
   return (
