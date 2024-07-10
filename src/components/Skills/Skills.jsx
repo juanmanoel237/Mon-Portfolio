@@ -12,8 +12,7 @@ import {
   faSearch,
   faBug,
   faServer
-} from '@fortawesome/free-solid-svg-icons'; // Assurez-vous que ces icônes sont disponibles dans votre version de FontAwesome
-import './skills.css'; // Assurez-vous d'importer votre fichier de styles CSS
+} from '@fortawesome/free-solid-svg-icons'; 
 
 
 const Skills = () => {

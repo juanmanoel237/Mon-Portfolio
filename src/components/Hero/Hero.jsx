@@ -25,7 +25,7 @@ const Hero = () => {
           <button className='cta-button' onClick={scrollToProject}>Découvrez mes projets 🚀</button>
         </div>
         <div className="hero-image">
-          <img src={moiImage} alt="Juan Manoel" /> {/* Utilisation de l'image importée */}
+          <img src={moiImage} alt="Juan Manoel" />
         </div>
       </div>
     </section>
