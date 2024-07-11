@@ -26,7 +26,7 @@ const App = () => (
         <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>
       <Footer />
-      <ScrollTop/>
+
     </div>
   </Router>
 );
