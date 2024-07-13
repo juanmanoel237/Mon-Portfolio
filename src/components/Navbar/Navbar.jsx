@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react'; // Importation des hooks useState et useEffect de React
-import { Link } from 'react-router-dom'; // Importation du composant Link de react-router-dom pour la navigation
-import './navbar.css'; // Importation du fichier CSS pour le style de la navbar
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import './navbar.css'; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // État pour contrôler l'ouverture/fermeture du menu
@@ -44,7 +44,7 @@ const Navbar = () => {
         <Link to="/" onClick={closeMenu}>NDEGUE JUAN </Link> 
       </div>
       <div className={`navbar-menu ${isOpen ? 'is-active' : ''}`}> {/* Menu de navigation principale avec gestion de la classe active */}
-        <Link to="/" onClick={closeMenu}>Home</Link>
+        <Link to="/" onClick={()=> scrollToSection('hero')}>About</Link>
         <Link to="/" onClick={() => scrollToSection('skills')}>Skills</Link> {/* Lien vers la section Skills avec défilement */}
         <Link to="/" onClick={() => scrollToSection('projects')}>Projects</Link> {/* Lien vers la section Projects avec défilement */}
         <Link to="/" onClick={() => scrollToSection('contact')}>Contact</Link> {/* Lien vers la section Contact avec défilement */}

@@ -5,7 +5,6 @@ import Hero from './components/Hero/Hero';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
-import ScrollTop from './components/Scroll/ScrollTop'
 import './App.css';
 
 const Home = () => (
@@ -26,7 +25,6 @@ const App = () => (
         <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>
       <Footer />
-
     </div>
   </Router>
 );
