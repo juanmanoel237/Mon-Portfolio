@@ -26,8 +26,7 @@
       "description": "Portfolio dynamique d'une architecte.",
       "details": "Pour ArchiWebos, j'ai renforcé l'équipe en tant que développeur front-end sur le projet du site portfolio d'une architecte d'intérieur. J'ai intégré la page de présentation des travaux existante en utilisant les données dynamiques fournies par le backend, développé la page de connexion administrateur à partir de zéro, et créé une modale d'upload de médias. En suivant les designs Figma et en collaborant étroitement avec l'équipe, j'ai contribué à rendre le site fonctionnel, répondant ainsi aux besoins spécifiques du projet et aux attentes de nôtre cliente.",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "githubLink": "https://github.com/juanmanoel237/openclassrooms_projet_3_sophie_bluel",
-      "demoLink": "https://demo.com/projet2"
+      "githubLink": "https://github.com/juanmanoel237/openclassrooms_projet_3_sophie_bluel"
     },
     {
       "id": 3,
@@ -71,8 +70,7 @@
       "description": "Développer le back-end d'un site de notation de livres.",
       "details": "Dans ce projet, j'ai créé un serveur avec Express et l'ai connecté à une base de données MongoDB. J'ai mis en place la structure du serveur et géré la communication entre le serveur et la base de données. J'ai développé les modèles de données et implémenté des opérations CRUD (Créer, Lire, Mettre à jour, Supprimer) pour la gestion des livres et des notations, en veillant particulièrement à la sécurité des données et à leur stockage sécurisé. J'ai également implémenté un système d'authentification sécurisé pour les utilisateurs du site. Le projet comprend la gestion du téléchargement et de l'optimisation des images, ainsi que l'ajout de fonctionnalités pour noter les livres et calculer la note moyenne. J'ai respecté les bonnes pratiques du Green Code pour réduire l'empreinte écologique du site. Pour compléter le projet, j'ai utilisé Mongoose pour modéliser les données MongoDB et suivi une architecture MVC (Modèle-Vue-Contrôleur) pour structurer l'application.",
       "technologies": ["Node-js", "MongoDB", "Express"],
-      "githubLink": "https://github.com/juanmanoel237/openclassrooms_projet_6_mon_vieux_grimoire",
-      "demoLink": "https://demo.com/projet2"
+      "githubLink": "https://github.com/juanmanoel237/openclassrooms_projet_6_mon_vieux_grimoire"
     }
     
   ]

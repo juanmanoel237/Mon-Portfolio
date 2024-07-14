@@ -23,8 +23,10 @@ const Modal = ({ project, onClose }) => {
           </ul>
         </div>
         <div className="links"> {/* Section pour afficher les liens GitHub et Demo */}
-          <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub</a> {/* Lien vers le repository GitHub */}
-          <a href={project.demoLink} target="_blank" rel="noopener noreferrer">Demo</a> {/* Lien vers la démo du projet */}
+          <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
+          {project.demoLink && (
+            <a href={project.demoLink} target="_blank" rel="noopener noreferrer">Demo</a>
+          )}
         </div>
       </div>
     </div>
