@@ -53,6 +53,6 @@ input[type="submit"]:hover {
 @media (max-width: 768px) {
     input[type="text"],
     textarea {
-        width: calc(100% - 20px); 
+        width: calc(100% - 40px); 
     }
 }
