@@ -17,7 +17,7 @@ const Hero = () => {
           <p>Bienvenue sur mon portfolio ! 🎉</p>
           <h2>Je suis Juan Manoel, Étudiant en développement web 🌐</h2>
           <p>
-            Je sors tout fraîchement d'une formation développeur web Bac+2 chez OpenClassrooms. 🎓
+            Je sors fraîchement d'une formation développeur web Bac+2 chez OpenClassrooms. 🎓
             Passionné par le développement web, j'aime créer des sites et des applications qui
             allient design et fonctionnalité. 💻✨ Chaque projet est pour moi une opportunité de
             perfectionner mes compétences et d'explorer de nouvelles technologies. 🚀
